@@ -1,0 +1,5 @@
+{
+  ".c" : "gcc {FILE_PATH} -o {DIR}/{FILE_NAME_NO_EXT} && {DIR}/{FILE_NAME_NO_EXT}",
+  ".cpp" : "g++ {FILE_PATH} -o {DIR}/{FILE_NAME_NO_EXT} && {DIR}/{FILE_NAME_NO_EXT}",
+  ".go" : "go run {FILE_PATH}"
+}
